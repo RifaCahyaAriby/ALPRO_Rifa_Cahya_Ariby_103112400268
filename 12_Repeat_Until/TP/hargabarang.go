@@ -13,7 +13,7 @@ func main () {
 		if harga == 0 {
 			break
 		}
-		total += harga
+		total += harga // menambahkan semua harga selain 0
 	}
 	fmt.Println("Total belanja anda:",total)
 }
